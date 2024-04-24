@@ -4,7 +4,7 @@ This repository contains detailed documentation and example notebooks for implem
 
 ## Notebooks Overview
 
-### 1. RAG for Semi-Structured Data (`rag-semi-structured-data.ipynb`)
+### 1. [RAG for Semi-Structured Data](rag-semi-structured-data.ipynb)
 
 This notebook demonstrates the implementation of a RAG system for semi-structured data.
 
@@ -16,7 +16,8 @@ This notebook demonstrates the implementation of a RAG system for semi-structure
 - **Chain Integration**: Building an end-to-end query-response chain that combines retriever, prompt template, and language model to generate responses.
 - **Self-Querying Retriever**: Enhancing retrieval capabilities by enabling the system to parse and respond based on structured queries derived from user input.
 
-### 2. RAG for Structured Data (`rag-structured-data.ipynb`)
+
+### 2. [RAG for Structured Data](rag-structured-data.ipynb)
 
 This notebook explores the use of a RAG system for structured data with SQL databases, particularly focusing on Azure SQL and OpenAI integration. Highlights include:
 
