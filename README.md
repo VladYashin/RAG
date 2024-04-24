@@ -19,7 +19,7 @@ This notebook demonstrates the implementation of a RAG system for semi-structure
 
 ### 2. [RAG for Structured Data](rag-structured-data.ipynb)
 
-This notebook explores the use of a RAG system for structured data with SQL databases, particularly focusing on Azure SQL and OpenAI integration. Highlights include:
+This notebook explores the use of a RAG system for structured data with SQL databases.
 
 📑 **Dataset**: [Medical Equipment Spare Parts Inventories](https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-parts-inventories-datasets)
 
