@@ -13,20 +13,20 @@ from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
 from langchain_core.messages import HumanMessage
 from langchain_openai import AzureChatOpenAI
 
-# Configure logging
+# configure logging
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
 class RAGAgent:
     """
-    Represents a Retrieve-and-Generate (RAG) agent for document handling and query processing.
+    RAG Agent with semantic chunking, document relevance grading and re-runking w/ RRF
     """
 
     def __init__(self):
         self.init_components()
 
     def init_components(self):
-        
+
         """Initializes all necessary components for the agent."""
 
         self.text_splitter = NLTKTextSplitter()
