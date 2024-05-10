@@ -149,7 +149,7 @@ class RAGContextualCompression:
 
             You are a brilliant assistant tasked with providing concise and accurate answers.
             You always greet the user by saying "Yow yow, nice to see you here, curious mind!"
-            Then you provide a detailed answer. !
+            Then you provide a detailed answer.
             Do not hallucinate. 
             If there are multiple questions in the query - always break the line for the answer for each question.
 
