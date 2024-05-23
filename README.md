@@ -1,40 +1,66 @@
 # Retrieval Augmented Generation (RAG)
 
-This repository contains detailed documentation and example notebooks for implementing Retrieval Augmented Generation systems for both different types of data data using Python.
+This repository contains detailed documentation, example notebooks (as well as tips & tricks) for implementing Retrieval Augmented Generation (RAG) systems for various types of data using Python.
 
 ## Notebooks Overview
 
-### 1. [RAG for Semi-Structured Data](rag-semi-structured-data.ipynb)
+### 0. [Data Processing](0-data-processing-tips)
+Tips & tricks on data processing, cleaning, chunking & augmentation. All the useful steps before data lands in vector store.
 
-This notebook demonstrates the implementation of a RAG system for semi-structured data.
-
-📑 **Dataset**: [Medical Equipment Spare Parts Inventories](https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-parts-inventories-datasets)
-
-- **Data Retrieval and Processing**: Fetching inventory data from MongoDB and processing it into a format suitable for embedding and retrieval.
-- **Embedding and Vector Store**: Creating and using embeddings for the inventory data using SentenceTransformer and managing data with Chroma vector store.
-- **Querying**: Implementing classical search and vector-based retrieval to respond to user queries about inventory items.
-- **Chain Integration**: Building an end-to-end query-response chain that combines retriever, prompt template, and language model to generate responses.
-- **Self-Querying Retriever**: Enhancing retrieval capabilities by enabling the system to parse and respond based on structured queries derived from user input.
+**What you can find inside?**
+- **Table Processing**: Techniques for processing of complex tables from the PDF documents.
 
 
-### 2. [RAG for Structured Data](rag-structured-data.ipynb)
+### 1. [RAG Contextual Compression](1-rag-contextual-compression)
+Methods to compress context for RAG systems to improve performance and accuracy and minimize costs.
 
-This notebook explores the use of a RAG system for structured data with SQL databases.
+**What you can find inside?**
+- **Context Summarization**: Techniques to provide only relevant information to retrievers
+- **Embedding Compression**: Reducing the size of embeddings while maintaining information.
+- **Cost Optimization**: How to make more with LLMs for less money?
 
-📑 **Dataset**: [Medical Equipment Spare Parts Inventories](https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-parts-inventories-datasets)
+### 2. [RAG for Semi-Structured Data](2-rag-semi-structured)
+Implementation of a RAG system for semi-structured data.
 
-- **SQL Database Interaction**: Configuring connections to Azure SQL Database using pyodbc and SQLAlchemy.
-- **Agent Creation**: Setting up an agent with SQL capabilities to interact intelligently with the database based on user queries.
-- **Translation and Querying**: Utilizing Azure OpenAI for translating text and executing SQL queries through a zero-shot description-based SQL agent.
-- **Query Enhancements**: Improving the quality of system prompts to enhance the precision and relevance of SQL query results.
+**What you can find inside?**
+- **Data Retrieval and Processing**: Fetching and processing data from MongoDB.
+- **Querying and Chain Integration**: Building end-to-end query-response systems with enhanced retrieval capabilities for semi-structured data (e.g. JSON)
+
+### 3. [RAG for Structured Data](3-rag-structured)
+Exploration & implementation of a RAG system for structured data with SQL databases.
+
+**What you can find inside?**
+- **SQL Database Interaction**: Configuring connections and interacting with SQL databases using pyodbc and SQLAlchemy.
+- **Agent Creation**: Setting up SQL agents for intelligent database interaction & querying.
+- **Query Enhancements**: Some ideas (not implemented yet) for informaiton filtering & retrieval.
+
+### 4. [RAG Agent](4-rag-agent)
+Detailed implementation and usage of autonomous RAG agents for different retrieval tasks.
+
+**What you can find inside?**
+- **Autonomous Agents**: Developing agents that perform retrieval tasks autonomously & efficiently.
+- **Integration**: Combining agents with other system components for seamless operation.
+
+### 5. [RAG Routing](5-rag-routing)
+Techniques and examples on how to route queries effectively in RAG systems to ensure accurate and relevant information retrieval depending on user's intent.
+
+**What you can find inside?**
+- **Intent Detection**: Methods to accurately determine user intent from queries.
+- **Query Routing**: Techniques for directing queries to the appropriate retrieval systems.
+- **Response Optimization**: Enhancing the relevance and accuracy of generated responses.
+
+## Data
+Contains sample datasets and scripts for data preprocessing used in the example notebooks.
+
+## Images
+Includes images and visual aids used in the documentation and notebooks.
 
 ## Setup and Configuration
 
-Before running the notebooks, ensure that you have the necessary environment variables configured as described in the notebooks. Don't forget to install packages from `requirements.txt`
+Before running the notebooks, ensure that you have the necessary environment variables configured as described in the notebooks. Don't forget to install packages from `requirements.txt`.
 
 ## Contributions and Issues
 
 Feel free to fork this repository, contribute changes, or submit issues.
 
 Peace!
-
