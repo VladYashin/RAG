@@ -60,6 +60,20 @@ Includes images and visual aids used in the documentation and notebooks.
 
 Before running the notebooks, ensure that you have the necessary environment variables configured as described in the notebooks. Don't forget to install packages from `requirements.txt`.
 
+## Work with Me
+
+If you are interested in:
+
+- Developing custom, production-ready RAG pipelines
+- Creating unique chatbot & assistant solutions
+- Integrating AI into various aspects of your business operations
+- Building prototypes or proofs of concept to validate your next groundbreaking idea
+
+🚩 Then go visit my [services page](https://iamvladyashin.com/services) and witness the magic happen.
+
+Feel free to reach out and share your story with me! I'm just an email away.
+
+
 ## Contributions and Issues
 
 Feel free to fork this repository, contribute changes, or submit issues.
