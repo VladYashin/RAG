@@ -4,12 +4,13 @@ This repository contains detailed documentation, example notebooks (as well as t
 
 ## Notebooks Overview
 
-### 0. [Data Processing](0-data-processing-tips)
-Tips & tricks on data processing, cleaning, chunking & augmentation. All the useful steps before data lands in vector store.
+### 0. [Tips & Tricks](0-tips-n-tricks)
+Tips & tricks on data processing, cleaning, chunking, and augmentation. It also highlights various approaches, accompanied by code snippets, for evaluating Retrieval-Augmented Generation (RAG) systems. Explore all the effective techniques and methods designed to enhance the accuracy of a RAG system.
 
 **What you can find inside?**
 - **Table Processing**: Techniques for processing of complex tables from the PDF documents.
-
+- **RAG Evaluation**: Approaches for evaluation of precision, recall, faithfulness, etc. of your RAG system.
+- **Query Extension**: Methodologies for enhanced retrieval (e.g., re-reanking, query extensions, etc.)
 
 ### 1. [RAG Contextual Compression](1-rag-contextual-compression)
 Methods to compress context for RAG systems to improve performance and accuracy and minimize costs.

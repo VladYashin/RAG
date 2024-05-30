@@ -12,15 +12,16 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.document_transformers import EmbeddingsRedundantFilter
 from langchain.chains import RetrievalQA
 from langchain_openai import AzureChatOpenAI
-from langchain.prompts import ChatPromptTemplate, PromptTemplate
+from langchain.prompts import PromptTemplate
 from warnings import filterwarnings
 
+
 # Ignore warnings from LLMChainExtractor
-filterwarnings("ignore", category=UserWarning)
+# filterwarnings("ignore", category=UserWarning)
 
 # Configure logging
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class RAGContextualCompression:
 
