@@ -73,9 +73,17 @@ If you are interested in:
 
 Feel free to reach out and share your story with me! I'm just an email away.
 
-
 ## Contributions and Issues
 
 Feel free to fork this repository, contribute changes, or submit issues.
+
+
+## Looking for the Ideal Hosting Solution for Your Project?
+
+Give [DigitalOcean](https://m.do.co/c/d05f08187ba9) a try! I host all my projects, including RAG pipelines, bots, assistants, and this website, on DigitalOcean.
+
+In addition to receiving __**$200 in credit for over 60 days**__, you'll also enjoy an amazing development and deployment experience!
+
+I highly recommend it! 👍
 
 Peace!
