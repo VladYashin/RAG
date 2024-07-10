@@ -58,7 +58,7 @@ Techniques and examples on how to use corrective RAG (CRAG) to ensure the pipeli
 - **Correction Mechanisms**: Techniques for identifying and correcting inaccuracies in real-time.
 
 ### 7. [GraphRAG](7-graphrag)
-Implementation & testing of Microsoft's GraphRAG pipeline with global & local searches using GPT-4o.
+Implementation & testing of Microsoft's [GraphRAG](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/) pipeline with global & local searches using GPT-4o.
 
 **What you can find inside?**
 - **Graph-Based Retrieval**: Using graph structures to enhance the retrieval process by connecting related pieces of information.
