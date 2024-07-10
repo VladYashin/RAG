@@ -10,13 +10,13 @@ Tips & tricks on data processing, cleaning, chunking, and augmentation. It also 
 **What you can find inside?**
 - **Table Processing**: Techniques for processing of complex tables from the PDF documents.
 - **RAG Evaluation**: Approaches for evaluation of precision, recall, faithfulness, etc. of your RAG system.
-- **Query Extension**: Methodologies for enhanced retrieval (e.g., re-reanking, query extensions, etc.)
+- **Query Extension**: Methodologies for enhanced retrieval (e.g., re-ranking, query extensions, etc.)
 
 ### 1. [RAG Contextual Compression](1-rag-contextual-compression)
 Methods to compress context for RAG systems to improve performance and accuracy and minimize costs.
 
 **What you can find inside?**
-- **Context Summarization**: Techniques to provide only relevant information to retrievers
+- **Context Summarization**: Techniques to provide only relevant information to retrievers.
 - **Embedding Compression**: Reducing the size of embeddings while maintaining information.
 - **Cost Optimization**: How to make more with LLMs for less money?
 
@@ -25,7 +25,7 @@ Implementation of a RAG system for semi-structured data.
 
 **What you can find inside?**
 - **Data Retrieval and Processing**: Fetching and processing data from MongoDB.
-- **Querying and Chain Integration**: Building end-to-end query-response systems with enhanced retrieval capabilities for semi-structured data (e.g. JSON)
+- **Querying and Chain Integration**: Building end-to-end query-response systems with enhanced retrieval capabilities for semi-structured data (e.g., JSON).
 
 ### 3. [RAG for Structured Data](3-rag-structured)
 Exploration & implementation of a RAG system for structured data with SQL databases.
@@ -33,7 +33,7 @@ Exploration & implementation of a RAG system for structured data with SQL databa
 **What you can find inside?**
 - **SQL Database Interaction**: Configuring connections and interacting with SQL databases using pyodbc and SQLAlchemy.
 - **Agent Creation**: Setting up SQL agents for intelligent database interaction & querying.
-- **Query Enhancements**: Some ideas (not implemented yet) for informaiton filtering & retrieval.
+- **Query Enhancements**: Some ideas (not implemented yet) for information filtering & retrieval.
 
 ### 4. [RAG Agent](4-rag-agent)
 Detailed implementation and usage of autonomous RAG agents for different retrieval tasks.
@@ -49,6 +49,21 @@ Techniques and examples on how to route queries effectively in RAG systems to en
 - **Intent Detection**: Methods to accurately determine user intent from queries.
 - **Query Routing**: Techniques for directing queries to the appropriate retrieval systems.
 - **Response Optimization**: Enhancing the relevance and accuracy of generated responses.
+
+### 6. [Corrective RAG](6-rag-corrective)
+Techniques and examples on how to use corrective RAG (CRAG) to ensure the pipeline adheres strictly to the information it retrieves.
+
+**What you can find inside?**
+- **Fact Verification**: Methods to cross-verify retrieved information with trusted sources.
+- **Correction Mechanisms**: Techniques for identifying and correcting inaccuracies in real-time.
+
+### 7. [GraphRAG](7-graphrag)
+Implementation & testing of Microsoft's GraphRAG pipeline with global & local searches using GPT-4o.
+
+**What you can find inside?**
+- **Graph-Based Retrieval**: Using graph structures to enhance the retrieval process by connecting related pieces of information.
+- **Hierarchical Community Structure**: Building hierarchical communities within the graph for better context management and query responses using [Leiden algo](https://arxiv.org/pdf/1810.08473).
+- **Local & Global Searches**: Utilizing local searches for detailed, specific queries within smaller subgraphs, and global searches to connect broader themes and insights across the entire knowledge graph.
 
 ## Data
 Contains sample datasets and scripts for data preprocessing used in the example notebooks.
@@ -76,7 +91,6 @@ Feel free to reach out and share your story with me! I'm just an email away.
 ## Contributions and Issues
 
 Feel free to fork this repository, contribute changes, or submit issues.
-
 
 ## Looking for the Ideal Hosting Solution for Your Project?
 
